@@ -1,0 +1,157 @@
+* {
+  top: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #171717;
+  font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.header {
+  width: 1400px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  line-height: 100%;
+}
+
+.header__navbar-avatar-name {
+  display: flex;
+  color: white;
+  font-weight: 500;
+  line-height: 60px;
+  padding-left: 20px;
+}
+
+.header__navbar-avatar {
+  display: flex;
+  padding-top: 20px;
+}
+
+.header__navbar-avatar img {
+  border-radius: 30px;
+}
+
+.header__navbar-list {
+  display: flex;
+  list-style: none;
+  line-height: 100px;
+}
+
+.header__navbar-item {
+  display: inline-block;
+}
+
+.header__navbar-list a {
+  text-decoration: none;
+  color: white;
+  padding: 0 25px;
+}
+
+.header__navbar li:hover a {
+  color: red;
+  background-color: white;
+  display: inline-block;
+}
+
+/* Body */
+.body {
+  width: 1400px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.body__title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.body__des {
+  color: white;
+  font-size: 65px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  padding-top: 150px;
+}
+
+/* Footer */
+.footer {
+  width: 1400px;
+  margin: 0 auto;
+  height: 600px;
+}
+
+.footer__project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__project-card1 {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.footer__project-card1 img {
+  width: 400px;
+  height: 500px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+.footer__project-card1:hover img {
+  opacity: 0.7;
+  transform: scale(1.5);
+}
+
+.footer__project-card2 {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.footer__project-card2 img {
+  width: 400px;
+  height: 500px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+.footer__project-card2:hover img {
+  opacity: 0.7;
+  transform: scale(1.5);
+}
+
+.footer__project-card3 {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.footer__project-card3 img {
+  width: 400px;
+  height: 500px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+.footer__project-card3:hover img {
+  opacity: 0.7;
+  transform: scale(1.5);
+}
